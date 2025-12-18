@@ -1,0 +1,8 @@
+* C:\Users\Lenovo\Desktop\Projects - Upgrading My Engineering Skills\ltspice-python-sweeper\circuits\RC-low-pass-filter.asc
+V1 in 0 PULSE(0 1 0 1u 1u 10m 20m)
+R1 out in 98
+C1 out 0 {CVAL}
+.tran 0 200m 0 1u
+.param CVAL=200u
+.backanno
+.end
